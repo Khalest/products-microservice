@@ -1,9 +1,11 @@
 # Products-ms
 
 ## Descripción
+
 Este es un proyecto de microservicio para productos.
 
 ## Scripts Disponibles
+
 - `build`: Compila el proyecto.
 - `format`: Formatea los archivos TypeScript.
 - `start`: Inicia el proyecto.
@@ -17,6 +19,7 @@ Este es un proyecto de microservicio para productos.
 - `test:e2e`: Ejecuta pruebas end-to-end.
 
 ## Dependencias Principales
+
 - `@nestjs/common`: ^10.0.0
 - `@nestjs/core`: ^10.0.0
 - `class-transformer`: ^0.5.1
@@ -25,6 +28,7 @@ Este es un proyecto de microservicio para productos.
 - `typescript`: ^5.1.3
 
 ## Dependencias de Desarrollo
+
 - `@nestjs/cli`: ^10.0.0
 - `@nestjs/testing`: ^10.0.0
 - `eslint`: ^8.42.0
@@ -35,10 +39,20 @@ Este es un proyecto de microservicio para productos.
 - `typescript`: ^5.1.3
 
 ## Estructura de Pruebas
+
 - Archivos de pruebas en formato `.spec.ts`.
 - Configuración de Jest en `jest` en el `package.json`.
 
 ## Otros Detalles
+
 - Proyecto basado en NestJS.
 - Utiliza ESLint para linting.
 - Configuración de Jest para pruebas.
+
+## Dev
+
+1. Clonar el repositorio
+2. Instalar dependencias
+3. Crear un archivo `.env` basado en el `.env.template`.
+4. Ejecutar migracion de prisma `npx prisma migrate dev`
+5. Ejecutar el proyecto `npm run start:dev`
